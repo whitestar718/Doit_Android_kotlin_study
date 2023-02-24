@@ -1,4 +1,4 @@
-package com.example.lab3.test1
+package com.example.lab3.Chap_01_Intro
 
 // Alt + Enter 치면 자동 임포트 된다.
 import java.text.SimpleDateFormat
