@@ -12,4 +12,11 @@ fun main() {
         array size: ${data71.size}
         array data" ${data71[0]}, ${data71[1]}, ${data71[2]}
     """.trimIndent())
+
+    // 2. 여러가지 배열 (자바 호환성 때문에 만들어둔 거라서, 굳이 코틀린에서 사용 안해도 됨)
+    // BooleanArray, ByteArray, CharArray, DoubleArray, FloatArray, IntArray ...
+    val data72 = arrayOf<Int>(10, 20, 30)
+    val data73 = booleanArrayOf(true, false, true)
+    println(data72[0])
+    println(data73[1])
 }
