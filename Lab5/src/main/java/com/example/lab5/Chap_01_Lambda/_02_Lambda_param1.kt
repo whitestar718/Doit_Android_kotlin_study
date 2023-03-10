@@ -6,6 +6,17 @@ fun main() {
     val some = {no:Int -> println(no)}
 
     // it 예약어를 쓰는 경우
-    // val some24 = (Int) -> Unit = {println(it)} // 왜 안되냐..
+    val some24: (Int) -> Unit = {println(it)}
+    some24(10)
     // some2(10)
+
+    // 람다함수에서는 리턴 구문을 못쓴다.
+    // val some25 = {no1:Int, no2:Int -> return no1 * no2} // 오류!
+
+    // 람다 함수의 반환값은 본문에서 마지막 줄의 실행 결과
+    val some26 = {no1:Int, no2:Int ->
+        println("in lambda function")
+        no1 * no2
+    }
+    println(some26(20, 50))
 }

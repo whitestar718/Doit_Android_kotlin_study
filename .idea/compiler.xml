@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="My_Application.app.lab4" target="11" />
       <module name="My_Application.Lab3.lab4" target="11" />
+      <module name="My_Application.Lab6" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,7 +6,7 @@ fun sum(no1:Int, no2:Int):Int{
 }
 
 // 람다 함수 선언
-val sum = {no1:Int, no2:Int -> no1+no2}
+val sum = {no1:Int, no2:Int -> no1 + no2}
 
 fun main() {
     // println(sum(10, 20))
@@ -16,4 +16,7 @@ fun main() {
 
     // 매개변수가 없는 람다 함수
     {println("function call")}
+    val sss = {->println("function call")}
+    sss()
+
 }
