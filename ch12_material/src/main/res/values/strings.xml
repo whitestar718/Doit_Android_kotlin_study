@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ch12_Material</string>
+    <string name="drawer_opened">Opened Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+    <string name="extended_fab">Extended FAB</string>
+    <string name="sample_preview_image">sample preview image</string>
+</resources>
