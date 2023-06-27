@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication" >
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".test5.Test5Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".test4.Test4Activity"
             android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
-            >
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +28,7 @@
         </activity>
         <activity
             android:name=".test3.Test3Activity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +37,7 @@
         </activity>
         <activity
             android:name=".test2.Test2Activity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,7 +46,7 @@
         </activity>
         <activity
             android:name=".test1.Test1Activity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,7 +55,7 @@
         </activity>
         <activity
             android:name=".DetailActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="ACTION_EDIT" />
 
@@ -58,7 +66,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
