@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab16">
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"
@@ -7,27 +9,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <service
-            android:name=".test3.MyJobService"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE"></service>
-
-        <activity
-            android:name=".test3.Test3Activity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <service
-            android:name=".test2.MyService"
-            android:enabled="true"
-            android:exported="true" />
-
         <activity
             android:name=".test2.Test2Activity"
             android:exported="true">
@@ -38,8 +19,9 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".test1.MyService"
+        <provider
+            android:name=".test1.MyContentProvider"
+            android:authorities="com.my.provider"
             android:enabled="true"
             android:exported="true" />
 

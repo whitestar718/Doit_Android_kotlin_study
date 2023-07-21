@@ -19,6 +19,9 @@
             <option value="$PROJECT_DIR$/ch12_material" />
             <option value="$PROJECT_DIR$/ch13_activity" />
             <option value="$PROJECT_DIR$/ch14_receiver" />
+            <option value="$PROJECT_DIR$/ch15_outer" />
+            <option value="$PROJECT_DIR$/ch15_service" />
+            <option value="$PROJECT_DIR$/ch16_provider" />
             <option value="$PROJECT_DIR$/ch6_view" />
             <option value="$PROJECT_DIR$/ch7_layout" />
             <option value="$PROJECT_DIR$/ch8_event" />
@@ -29,6 +32,8 @@
             <option value="$PROJECT_DIR$/lab13" />
             <option value="$PROJECT_DIR$/lab14" />
             <option value="$PROJECT_DIR$/lab15" />
+            <option value="$PROJECT_DIR$/lab16" />
+            <option value="$PROJECT_DIR$/lab17" />
             <option value="$PROJECT_DIR$/lab6" />
             <option value="$PROJECT_DIR$/lab7" />
             <option value="$PROJECT_DIR$/lab8" />
