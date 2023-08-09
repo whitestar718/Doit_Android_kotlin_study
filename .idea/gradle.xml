@@ -22,6 +22,10 @@
             <option value="$PROJECT_DIR$/ch15_outer" />
             <option value="$PROJECT_DIR$/ch15_service" />
             <option value="$PROJECT_DIR$/ch16_provider" />
+            <option value="$PROJECT_DIR$/ch17_database" />
+            <option value="$PROJECT_DIR$/ch18_network" />
+            <option value="$PROJECT_DIR$/ch19_map" />
+            <option value="$PROJECT_DIR$/ch20_firebase" />
             <option value="$PROJECT_DIR$/ch6_view" />
             <option value="$PROJECT_DIR$/ch7_layout" />
             <option value="$PROJECT_DIR$/ch8_event" />
@@ -34,6 +38,8 @@
             <option value="$PROJECT_DIR$/lab15" />
             <option value="$PROJECT_DIR$/lab16" />
             <option value="$PROJECT_DIR$/lab17" />
+            <option value="$PROJECT_DIR$/lab18" />
+            <option value="$PROJECT_DIR$/lab19" />
             <option value="$PROJECT_DIR$/lab6" />
             <option value="$PROJECT_DIR$/lab7" />
             <option value="$PROJECT_DIR$/lab8" />
